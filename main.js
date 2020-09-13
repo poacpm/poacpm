@@ -9444,7 +9444,6 @@ var $rtfeldman$elm_css$Css$pseudoElement = function (element) {
 	return $rtfeldman$elm_css$Css$Preprocess$WithPseudoElement(element);
 };
 var $rtfeldman$elm_css$Css$before = $rtfeldman$elm_css$Css$pseudoElement('before');
-var $rtfeldman$elm_css$Html$Styled$Attributes$class = $rtfeldman$elm_css$Html$Styled$Attributes$stringProperty('className');
 var $rtfeldman$elm_css$Html$Styled$div = $rtfeldman$elm_css$Html$Styled$node('div');
 var $rtfeldman$elm_css$Css$stringsToValue = function (list) {
 	return $elm$core$List$isEmpty(list) ? {dK: 'none'} : {
@@ -9688,10 +9687,7 @@ var $author$project$Page$Home$getStartedView = function (isFadein) {
 					])),
 				A2(
 				$author$project$Page$Home$pGetStartedStyled,
-				_List_fromArray(
-					[
-						$rtfeldman$elm_css$Html$Styled$Attributes$class('details')
-					]),
+				_List_Nil,
 				_List_fromArray(
 					[
 						$rtfeldman$elm_css$Html$Styled$text('Please refer to '),
@@ -9699,7 +9695,6 @@ var $author$project$Page$Home$getStartedView = function (isFadein) {
 						$rtfeldman$elm_css$Html$Styled$a,
 						_List_fromArray(
 							[
-								$rtfeldman$elm_css$Html$Styled$Attributes$class('book-link'),
 								$rtfeldman$elm_css$Html$Styled$Attributes$href('https://docs.poac.io')
 							]),
 						_List_fromArray(
@@ -10943,7 +10938,6 @@ var $author$project$Page$Home$section = function (isFadein) {
 		$rtfeldman$elm_css$Html$Styled$div,
 		_List_fromArray(
 			[
-				$rtfeldman$elm_css$Html$Styled$Attributes$class('section'),
 				$rtfeldman$elm_css$Html$Styled$Attributes$css(
 				_List_fromArray(
 					[
@@ -11085,6 +11079,7 @@ var $author$project$Page$NotFound$view = A2(
 					$rtfeldman$elm_css$Html$Styled$text('Page not found')
 				]))
 		]));
+var $rtfeldman$elm_css$Html$Styled$Attributes$class = $rtfeldman$elm_css$Html$Styled$Attributes$stringProperty('className');
 var $elm$json$Json$Encode$bool = _Json_wrap;
 var $rtfeldman$elm_css$Html$Styled$Attributes$boolProperty = F2(
 	function (key, bool) {
